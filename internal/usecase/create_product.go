@@ -17,7 +17,7 @@ type CreateProductUseCase struct {
 	ProductRepository entity.ProductRepository
 }
 
-func NewCreateProductsUseCase(productRepository entity.ProductRepository) *CreateProductUseCase {
+func NewCreateProductUseCase(productRepository entity.ProductRepository) *CreateProductUseCase {
 	return &CreateProductUseCase{ProductRepository: productRepository}
 }
 
